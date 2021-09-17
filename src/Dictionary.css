@@ -1,5 +1,13 @@
+body {
+    color: white;
+}
 form {
     text-align: center;
+
+}
+input {
+    border-style:none;
+    border-bottom: olive solid 1px;
 }
 button {
     background: transparent;
