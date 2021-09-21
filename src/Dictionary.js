@@ -16,7 +16,7 @@ export default function Dictionary(){
 
     function search(event){
         event.preventDefault();
-        alert(`Searching ${keyword}`);
+       
 
         let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
         axios.get(apiUrl).then(handleResponse);
@@ -28,7 +28,7 @@ export default function Dictionary(){
     return(
         <div className="dictionary">
            <form onSubmit={search} className="mt-3">
-           <input type="search" placeholder="Search..." onChange={handleKeyword} classNames="search-field" />
+           <input type="search" placeholder="Search..." onChange={handleKeyword} classNames="search-field" autoFocus="off"/>
         <button type="submit" className="search-button">
           <GiMagnifyingGlass />
         </button>
