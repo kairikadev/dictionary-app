@@ -1,4 +1,7 @@
-
+body{
+    background-color:#5C3D2E;
+    color:white;
+}
 form {
     text-align: center;
 
@@ -11,4 +14,15 @@ button {
     background: transparent;
     border: none;
     margin-left: -33px;
+}
+.hint{
+    text-align: center;
+    font-size: 11px;
+    color:#ddd;
+}
+.Meaning section{
+    background-color:#E0C097;
+    border-radius: 10px;
+    padding:20px 10px;
+    color:#333;
 }

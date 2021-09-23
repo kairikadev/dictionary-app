@@ -27,12 +27,17 @@ export default function Dictionary(){
     }
     return(
         <div className="dictionary">
+            <section>
            <form onSubmit={search} className="mt-3">
            <input type="search" placeholder="Search..." onChange={handleKeyword} classNames="search-field" autoFocus="off"/>
         <button type="submit" className="search-button">
           <GiMagnifyingGlass />
         </button>
            </form>
+           </section>
+           <div className="hint">
+               suggested words: sunset, wine, plants etc.....
+           </div>
            <Results results={results} />
         </div>
       
