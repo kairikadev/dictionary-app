@@ -1,0 +1,16 @@
+.Meaning section{
+    background-color:#D3E0DC;
+    border-radius: 10px;
+    padding:20px 10px;
+    color:#333;
+    margin:15px;
+}
+.Meaning h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.Meaning .example{
+    opacity:0.7;
+    
+    font-style: italic;
+}

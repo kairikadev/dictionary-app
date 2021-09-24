@@ -1,14 +1,15 @@
 body{
-    background-color:#5C3D2E;
-    color:white;
+    background-color:#ECE2E1;
+   
 }
 form {
     text-align: center;
 
 }
 input {
-    border-style:none;
-    border-bottom: olive solid 1px;
+    border-radius:15px;
+    border:#AEE1E1 solid 1px;
+    padding:4px 4px;
 }
 button {
     background: transparent;
@@ -18,11 +19,6 @@ button {
 .hint{
     text-align: center;
     font-size: 11px;
-    color:#ddd;
-}
-.Meaning section{
-    background-color:#E0C097;
-    border-radius: 10px;
-    padding:20px 10px;
     color:#333;
 }
+

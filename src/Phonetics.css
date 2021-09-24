@@ -1,0 +1,11 @@
+.Phonetics .text{
+    opacity:0.5 ;
+    font-weight: bold;
+    
+}
+.Phonetics a {
+    text-decoration: none;
+    margin-left: 5px;
+    
+    
+}
