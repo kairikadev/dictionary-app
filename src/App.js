@@ -10,7 +10,7 @@ function App() {
        Dictionary
        </header>
        <main>
-       <Dictionary />
+       <Dictionary  defaultWord= "hello"/>
        </main>
        </div>
        <footer className="App-footer">

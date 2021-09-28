@@ -4,12 +4,15 @@ body{
 }
 form {
     text-align: center;
+    margin: 20px 0;
 
 }
 input {
-    border-radius:15px;
+    border-radius:10px;
     border:#AEE1E1 solid 1px;
     padding:4px 4px;
+    
+    
 }
 button {
     background: transparent;
