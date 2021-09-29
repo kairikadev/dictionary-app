@@ -1,6 +1,7 @@
 
 import './App.css';
 import Dictionary from "./Dictionary";
+import { GoMarkGithub} from 'react-icons/go'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
        </div>
        <footer className="App-footer">
          <small> coded by Kairika
+           <a href="https://github.com/kairikadev/dictionary-app"> <GoMarkGithub />
+           </a>
            </small>
        </footer>
       </div>
